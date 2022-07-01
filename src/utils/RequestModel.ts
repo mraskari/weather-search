@@ -2,7 +2,7 @@ import { Observable } from "rxjs";
 import { Method, _Headers, Body } from "./types";
 
 const baseUrl = 'http://api.openweathermap.org';
-const appId = '&appid=1d07a83e8bb609ac6c0fa76d58d3dc5e'
+const appId = '&appid=use_your_api_key'
 
 export default class RequestModel {
     constructor(private url: string, private method: Method, private headers: _Headers, private body?: Body) {
